@@ -5,13 +5,13 @@
   "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.0"
+    "sass": "^1.27.0"
   },
   "scripts": {
     "dev": "parcel index.html; parcel watch index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "lottie-web": "^5.5.9"
+    "lottie-web": "^5.7.3"
   }
 }

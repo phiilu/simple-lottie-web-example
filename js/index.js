@@ -15,3 +15,5 @@ const animation = lottie.loadAnimation({
 playButton.addEventListener("click", () => animation.goToAndPlay(0));
 container.addEventListener("mouseover", () => animation.play());
 container.addEventListener("mouseleave", () => animation.pause());
+
+document.getElementById('year').innerText = new Date().getFullYear()
